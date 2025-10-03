@@ -1,0 +1,31 @@
+// Rooms and room cards
+Room, Laboratory, L
+Room, Vault, V
+Room, Art Gallery, A
+Room, Theatre, T
+Room, Office, O
+Room, Bedroom, B
+Room, Bathroom, R
+Room, Pantry, P
+Room, Garage, G
+
+
+// Other Spaces,
+Space, Unused, X
+Space, Walkway, W
+
+// Weapons
+Weapon, Knife
+Weapon, Revolver
+Weapon, Poison
+Weapon, Bat
+Weapon, Iron Pan
+Weapon, Hammer
+
+// Players
+Player, Inspector Slate, human, 11, 24, green
+Player, Professor Umber, computer, 0, 8, yellow
+Player, Dr. Crane, computer, 8, 15, blue
+Player, Reverend Rouge, computer, 12, 3, red
+Player, Lady Marigold, computer, 25, 18, orange
+Player, Chef Beaumont, computer, 19, 9, purple

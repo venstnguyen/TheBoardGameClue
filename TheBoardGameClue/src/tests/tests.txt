@@ -1,0 +1,16 @@
+Tests.txt
+
+DOORWAY DIRECTIONS
+(2,3): 'L#' is a door in the Laboratory, DOWN direction
+(8,2): 'V*' in the Vault opens UP
+(3,8): 'W<' opens LEFT in hallway
+(4,0): 'LA' used for RIGHT (assumed)
+
+ROOM LABELS & CENTERS
+(4,0): Label cell for Laboratory
+(2,22): Center cell for Theatre
+
+CELLS WITH NO DOORWAYS
+(6,6), (12,12) — basic room/walkway space with no door direction
+
+These values were chosen by inspecting the visual layout of ClueLayout.csv.

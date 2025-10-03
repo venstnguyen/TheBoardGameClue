@@ -1,0 +1,791 @@
+commit bae257490eb339fe54526df5662efe5badbd4bb0
+Merge: 3c68a36 d55adce
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 12 03:06:28 2025 -0600
+
+    Merge branch 'main' of github.com:liamobyrne/C13A-2
+
+commit 3c68a36e15bf4bb24a73b6629895f57f10ee87bd
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 12 03:05:27 2025 -0600
+
+    Added files and changes for suggestion handling - BH
+
+commit d55adceb2830716d3f582c290d02742ac5287944
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 11 23:21:29 2025 -0600
+
+    Completed the accusation button! SN
+
+commit 24644f470f4bd8a9ce3ec3de62e3c576e658bcd1
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 11 22:46:22 2025 -0600
+
+    Creation of the AccusationDialog class, completed, text for player
+    accusations! SN
+
+commit c0df764bedf3aab89c3501fca5ddee1f9149b006
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 22:56:02 2025 -0400
+
+    delete \out
+
+commit e6ede6dea00ab4e6efbbc7b58f5bf4c885b067bc
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 22:05:44 2025 -0400
+
+    Revert "debugging/tracking accusations"
+    
+    This reverts commit 159569bc84b0308ac1f85956e4b337b7aed55098.
+    
+    revert#
+
+commit 16af73c75513ab6ae1060ea053a4e019798245d1
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 22:04:50 2025 -0400
+
+    Revert "seen panel debugging + misc"
+    
+    This reverts commit 481c93074667c33de4d9a743e0c9fb0ca568cf5d.
+    
+    revert#
+
+commit c877dc477f7c38354e158910f3cfa696ba951979
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 22:02:12 2025 -0400
+
+    Revert "visual bugs + seen panel bugs"
+    
+    This reverts commit 8c2c7bf1e911bfe1a7dc81535a947c0d1211e30d.
+    
+    revert#
+
+commit fdb8bdf610eeba6c8a1cd74777c969dddd764dcb
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 21:57:18 2025 -0400
+
+    Revert "movement debugging"
+    
+    This reverts commit d1f840346aa0f62886e5e2daa7c0908600e5ff3d.
+    
+    revert#
+
+commit d1f840346aa0f62886e5e2daa7c0908600e5ff3d
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 20:10:28 2025 -0400
+
+    movement debugging
+
+commit 8c2c7bf1e911bfe1a7dc81535a947c0d1211e30d
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 19:21:56 2025 -0400
+
+    visual bugs + seen panel bugs
+
+commit 481c93074667c33de4d9a743e0c9fb0ca568cf5d
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 18:55:57 2025 -0400
+
+    seen panel debugging + misc
+
+commit 159569bc84b0308ac1f85956e4b337b7aed55098
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 18:20:42 2025 -0400
+
+    debugging/tracking accusations
+
+commit e25a7ebc83eeedc4b14e59b1ce2a3f86dcd55893
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 18:02:27 2025 -0400
+
+    make secret passages visible
+
+commit c61c3379d81bbfb61ec703a5dda3a7610d27997e
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 11 16:15:16 2025 -0400
+
+    misc
+
+commit da80abebeb212f4feb3e7af9896d7829282f84b7
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 11 01:36:44 2025 -0600
+
+    Fixed unit test with updated typing - BH
+
+commit c9e3a7aff580051bd036cf805cb4e21d87a2e705
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 11 01:31:00 2025 -0600
+
+    Fixed typing of seenCards and removed mock cards in GUI - BH
+
+commit 0ecd26dc9680749e8b7b11947d0ebb3c678f9bdc
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 9 00:42:00 2025 -0600
+
+    Gitlog update - BH
+
+commit a4b436d008ed14d10c78df14b3d012bf71ffeeb9
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 9 00:40:17 2025 -0600
+
+    Added splash screen feature - BH
+
+commit 4dbf48dcc8c9cc494675d632d19ca2885c887fdd
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 8 19:00:24 2025 -0600
+
+    Added back missing code for gridlines - BH
+
+commit 2fdae76c17d5fc3dcdad4aa205df91f31875880d
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 20:53:52 2025 -0400
+
+    edits
+
+commit 44836c550d729fbc8f86eca85b7bfc31dc828cbb
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 8 18:41:52 2025 -0600
+
+    Adjusted positions of players on Board setup - BH
+
+commit 0ea4f2a52d661b95f976d9c280b412cc3b4b96aa
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 20:09:14 2025 -0400
+
+    setLocation func
+
+commit f9533b32e70c6d172ac13ec5880584d726af77ef
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 20:06:06 2025 -0400
+
+    Board Cells highlighting
+
+commit e91d410f28820537306c00097ece8e8f52a2185e
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 19:55:16 2025 -0400
+
+    label new code
+
+commit 1fa30f54bea833965849d4201e5ddae3a87e55ea
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 19:52:52 2025 -0400
+
+    Select Target + Error handling
+
+commit fa6c65f1d41b67385006133e3c1ab19e1341386f
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 8 19:27:43 2025 -0400
+
+    Control panel shows player and roll
+
+commit 9ff539bbeb86cfe5deaac2922524eb8e28913fa0
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 5 00:29:53 2025 -0600
+
+    Gitlog - BH
+
+commit 61186637a3bdad26ca7b9b612d512a57a74ace89
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 5 00:24:49 2025 -0600
+
+    Added a function that adds cards to the KnownCardsPanel - BH
+
+commit 6dd6c7d2350751c61f6d15c0409136505176bab3
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 5 00:09:49 2025 -0600
+
+    Gitlog - BH
+
+commit 007182d389d39d705224c6fa60c8ed339519c1ca
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Aug 5 00:09:23 2025 -0600
+
+    Last adjustments to KnownCardsPanel - BH
+
+commit 0fb5709240240285153b3f7bf66566ab6fae7d2d
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 23:24:08 2025 -0600
+
+    Board.java changes
+
+commit adf77928dea1c6638886e2ada9f6bd30afe60ab5
+Merge: c199c3e 63a1075
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 23:23:32 2025 -0600
+
+    Merge branch 'main' of git@github.com:liamobyrne/C13A-2.git into main
+
+commit c199c3e4c91e0f6acd37d5c54d92a29e3501fc92
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 23:22:18 2025 -0600
+
+    Adjustments to Clue Game GUI - BH
+
+commit 63a1075970435a47d7730f4b9e674ffc19dfcee1
+Merge: 23413e1 f098354
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 4 23:09:51 2025 -0600
+
+    Merge branch 'main' of https://github.com/liamobyrne/CSCI306-ClueGame.git into main
+
+commit 23413e190d41c4f97291533933c3de6b8d73906b
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 4 23:09:39 2025 -0600
+
+    Adding to Player and Board Class in order to draw players! SN!
+
+commit f098354fbed20d793e5f2cb886db93608684a4ad
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 22:47:15 2025 -0600
+
+    Adjusted dimensions of Cards Panel - BH
+
+commit b41abadfad5d2276b1338c3c163dcd64ae82b71c
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 4 22:04:17 2025 -0600
+
+    Finishing KnownCardPAnels with updateCard Method, setSeen method, and
+    addCards by type method! SN.
+
+commit bef6005f88af4b6e370b91815d3a5478a251d81d
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 21:26:58 2025 -0600
+
+    Fixed layout of GameControlPanel - BH
+
+commit 1687760f7031ee03afdec3fba97d933dd58472a2
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 20:17:57 2025 -0600
+
+    Fixed number of doors in previous test - BH
+
+commit 6533e259faefdbce6e1a677ad0563db1e7ff2918
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 19:31:59 2025 -0600
+
+    Fixed syntax error in setSeen method - BH
+
+commit 5c58c7d6b4e9e4c4b7c7606e2c533570c850f816
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 19:17:11 2025 -0600
+
+    Added GUI class - BH
+
+commit ca35d6074cd7fbe260337aff01a05c2f3d3ceb10
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 18:19:13 2025 -0600
+
+    Reformatted Board.java and made the strucutre clearer - BH
+
+commit 24f9d3f9a7bfa1c92e615cdbc9e9568a7d32f356
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 18:05:03 2025 -0600
+
+    Adjusted main method and used the proper JPanel class - BH
+
+commit a6f464251cd76235bbb0b0e8717ffad53ad7ecda
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Aug 4 17:40:21 2025 -0600
+
+    Added main method to GameControlPanel - BH
+
+commit 451a241a1b6c397ee0dbfac462849917251757b6
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Aug 4 17:22:55 2025 -0600
+
+    Finished GameControlPanel, Pushed for testing! SN
+
+commit 630a47b5e401a8fd9c1e95e643fd5d2015869882
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 4 17:14:02 2025 -0400
+
+    Draw Board + Board Cells
+
+commit 145cc93425da6814477402e3bece970fcdcc5a55
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 4 14:37:25 2025 -0400
+
+    Setup + Next Player method
+
+commit e34a386e1118c12d1b186614219f199493f1ff10
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 4 13:50:54 2025 -0400
+
+    Create KnownCardsPanel.java
+
+commit 001a055415f66c3e566c98747d309a01ca6672f2
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 4 13:22:12 2025 -0400
+
+    NextPlayer button, getters + setters
+
+commit 252882294af3e734f07b88ef962401efe6a75435
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Aug 4 12:24:51 2025 -0400
+
+    JPanel class setup
+
+commit 46f5ee2a6fe6b1f61a3e62ea95cafa00241021d3
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 01:43:03 2025 -0600
+
+    Updated gitlog.txt - BH
+
+commit fbdacb0f0939c4095f95fe6084fcc1d2741d9597
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 01:41:31 2025 -0600
+
+    Made adjustments to ComputerAITest - BH
+
+commit 36415d93e3c2a7420d12b1555f132689c2b6f313
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 01:12:47 2025 -0600
+
+    Merge branch 'main' of git@github.com:liamobyrne/C13A-2.git into main
+
+commit 0cd4b5506f8bd0d760e6f32ab29be52decc5a4cc
+Merge: 8e76dc8 9925655
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 00:52:41 2025 -0600
+
+    Merge branch 'main' of git@github.com:liamobyrne/C13A-2.git into main
+
+commit 9925655ea6684c7a14646a2e49d5f8cbb67f2078
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Sat Aug 2 00:50:07 2025 -0600
+
+    Finished Test! SN!
+
+commit 8e76dc89088f94dc01871b57a2d9cef22314a686
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 00:38:23 2025 -0600
+
+    Implemented methods and adjusted variables so that all of the  GameSolutionTests pass - BH
+
+commit d7bf2f94ff73e176b1985f090ea3a19bbf09ec07
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Aug 2 00:13:46 2025 -0600
+
+    Added method stubs and reformmated tests to GameSolutionTest - BH
+
+commit cd1104967666e4af169aa377ea3365f6fe685362
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 23:52:31 2025 -0600
+
+    Completed selectTargets and createSuggestions, also added to Player
+    inorder to complete CPU! SN
+
+commit 5f5c2f95cded518712555f28fc83996dd7c400b7
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 22:50:57 2025 -0600
+
+    Updated gitlog - BH
+
+commit efe84291646aa75c27889e354bdfed16aa2242e8
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 22:35:19 2025 -0600
+
+    Fixed tests to match content in ClueSetup.txt - BH
+
+commit 86c621d3bc3fdcb83a60ff6d7cfdea957d731474
+Merge: cde4db6 d7523d8
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 21:53:12 2025 -0600
+
+    Merge branch 'main' of https://github.com/liamobyrne/CSCI306-ClueGame.git into main
+
+commit cde4db6762c2ac3eb72911c2d5d28ff8e2691031
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 21:52:58 2025 -0600
+
+    Finished Test for 20a! SN
+
+commit d7523d80e68f69ac0a4b03621cae8a833d006af9
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 20:54:25 2025 -0600
+
+    Made adjustments to Board.java to get tests to pass - BH
+
+commit 10f1d5a03c9ef23c38c40f6949c580ca0aac4523
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 20:25:42 2025 -0600
+
+    Changes to loadSetUpConfig! SN!
+
+commit 56e06e7502638a4ba9698a2f7d8b4c5b3867340d
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 19:54:12 2025 -0600
+
+    Fixed Board.java error - BH
+
+commit 0fb5216c0745cf82604d070cb45500872def5308
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 19:49:26 2025 -0600
+
+    Removed extra classes - BH
+
+commit e077fb5bf5cc9d6ce7594d1bea061779a8148b08
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 19:40:50 2025 -0600
+
+    Finsihed Board Updates to match UML, also made Human and Computer Player
+    empty class! SN
+
+commit 3346476aaf519f76a39f03b79f39323b802c1a3a
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 18:53:24 2025 -0600
+
+    Made adjustments to formatting in ClueSetup.txt - BH
+
+commit cd7d0541c742bc43cced27e6653452481e48825e
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 18:44:26 2025 -0600
+
+    Added adjustments to Board.java and Human.java, added initial  player loading test (it fails) - BH
+
+commit 0061b4fa3747736c53855b2badca4681d6ddb171
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 18:48:31 2025 -0400
+
+    GameSolutionTest.java tests
+
+commit 7f79e3005feca511ff86d0dced0aa5b8693fa545
+Merge: 9d22026 67d1493
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 18:12:29 2025 -0400
+
+    Merge branch 'main' of https://github.com/liamobyrne/CSCI306-ClueGame
+
+commit 9d22026895321588d0571c929bb0a94c026aff60
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 18:12:14 2025 -0400
+
+    Tests file creation + GameSolutionTest.java setup
+
+commit 67d14934b71f2d01066b816a8b5186ad1795a758
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Fri Aug 1 15:58:33 2025 -0600
+
+    Added code stubs for Player and CPU class, and BeforeAll methodfor test file - BH
+
+commit ee20087cdfa842904944ed14a2174adb995abfc5
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 17:17:13 2025 -0400
+
+    Human.java setup
+
+commit bfb8889aa3cd2a58abdd6aa10ee6638490aa1644
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 17:13:03 2025 -0400
+
+    Class Setup for Solution.java
+
+commit ebdbdcda91f40265ee75a6e55cc88f56cc2e3af3
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Aug 1 16:04:39 2025 -0400
+
+    Add Weapons + Players
+
+commit cb7a44724e60a37fef91a2ab02fa01bcda049006
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 12:19:55 2025 -0600
+
+    Creation of Card class! SN!
+
+commit e9315d0fd185955e7e422efee3bdce7c29302dbd
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Fri Aug 1 10:25:27 2025 -0600
+
+    Creation of Card Type Enum! SN!
+
+commit ca55852c9f8c1d32ee19a4378da596bd3ee09f5f
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Wed Jul 30 23:52:37 2025 -0600
+
+    Added Skeleton classes for C20A - BH
+
+commit 37d3e85094c5910b7f9ba025b2f1414a05d2949b
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Thu Jul 24 23:53:59 2025 -0600
+
+    Gitlog commit
+
+commit 5e6dbae6c158e85dc31cd4f3d02028cfda86606e
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Thu Jul 24 23:52:49 2025 -0600
+
+    Adjusted tests that did not adhere to rules and made changes to doorways
+    on csv
+
+commit 5fb6064b9870b4888e5c1dbcee3bd9e30caae678
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Thu Jul 24 22:52:39 2025 -0600
+
+    Made adjustments to Board.java for 306 tests
+
+commit 24c32da5dfb9aebd2587feaa322f1fd6ad98cbff
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Thu Jul 24 14:29:17 2025 -0600
+
+    Fixed some test and Board class! SN
+
+commit 1c546cce142c7e075788bd33c8c38acb2ba4d0cc
+Author: Liam <lobyrne05@gmail.com>
+Date:   Thu Jul 24 14:02:06 2025 -0400
+
+    target tests fix
+
+commit c6413e7033ab91a3c29b73351502f9986cd85ac8
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Jul 22 02:03:44 2025 -0600
+
+    Added Spreadsheet
+
+commit 6f74a9a0a4b44e963ef5ada91660965579034fa3
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Jul 22 01:21:42 2025 -0600
+
+    Added gitrefactor.txt
+
+commit 5d9dd15f67c2f64ab6f0173f942ef2c121b95cf2
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Jul 22 01:19:31 2025 -0600
+
+    Refactored Board.java
+
+commit a0ea78f8259c055718371ddd0f07104af4674544
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Tue Jul 22 01:06:39 2025 -0600
+
+    Adjusted FileInitTests to pass
+
+commit 37da41483de776e88193dd608c45ff1a5c44e945
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Jul 21 23:36:32 2025 -0600
+
+    Added files for submission
+
+commit 1bed54b31b32e8137e28de1528df7ac6cf15fda8
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 22:26:48 2025 -0600
+
+    Refactored Board to pass test and added comments! SN
+
+commit a68bae6423c41eed061f376c263884c00088a82c
+Merge: f2d9413 ffda870
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 21:41:22 2025 -0600
+
+    Merge branch 'main' of https://github.com/liamobyrne/C13A-2.git into main
+
+commit f2d94139972a513edd17ee1a412bad5c5eb83d00
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 21:41:03 2025 -0600
+
+    Merge branch 'main' of https://github.com/liamobyrne/C13A-2.git into
+    main
+
+commit ffda8705971d97c9df10e2d76854e4344f45732f
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 22:44:17 2025 -0400
+
+    updates
+
+commit 4dcba24fef0f918b7f461834a0d4f50bf8350f37
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 22:40:34 2025 -0400
+
+    Update BoardAdjTargetTest.java
+
+commit fbb253648e14f4f81c02471b91811b84758b3cbc
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 22:05:47 2025 -0400
+
+    Update BoardCell.java
+
+commit 07236e0adfde50f6a69a1eb189c1fbeaff88565b
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 20:18:48 2025 -0400
+
+    gitlog
+
+commit 4ec569f9729ff5d2267c7e542e7a842b7fd82547
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 20:13:26 2025 -0400
+
+    bug
+
+commit e1587b76261fd7cd715ec2db549f867374bbdbf6
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 20:12:16 2025 -0400
+
+    bug
+
+commit eb863be2c28f632035d0a079c7151a3a80d3e587
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 20:01:29 2025 -0400
+
+    Update gitlog
+
+commit 39e7b49f0f933014395757cfc009c1f5f4e8246a
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 19:57:04 2025 -0400
+
+    Debugging
+
+commit 507485ac96cc00bd649a24bc0e46238b2b67bb5e
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 19:37:49 2025 -0400
+
+    debugging
+
+commit 4a4f58ea378098a47ad8eee2d6b74df50f0419ab
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 19:12:32 2025 -0400
+
+    BoardCell.java updates
+
+commit 19c563780c0584dc4db6fb3e92dd7dc3c229a81e
+Merge: 1025e81 712d847
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 16:24:55 2025 -0600
+
+    Merge branch 'main' of https://github.com/liamobyrne/C13A-2.git into main
+
+commit 1025e81ec5acdbb47d5b2deb9a1a5234f2da688a
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 16:24:08 2025 -0600
+
+    Finished Board class! SN
+
+commit 712d847d8c61455b4f6c2d7c11a59fac92857953
+Merge: cee9d4e 5515837
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 17:45:52 2025 -0400
+
+    Merge branch 'main' of https://github.com/liamobyrne/CSCI306-ClueGame
+
+commit cee9d4ed7b5b12a3bf2330eeead7a62da3711c5c
+Author: Liam <lobyrne05@gmail.com>
+Date:   Mon Jul 21 17:45:35 2025 -0400
+
+    TestBoardCell + Target Tests
+
+commit 551583776dc96148578cf138dd92774d767d7892
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Mon Jul 21 15:44:49 2025 -0600
+
+    Added BoardAdjTargetTest skeleton and some tests for adjacency
+
+commit c0b04968f5f3b1a52040a3c741d291207794f309
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 14:46:52 2025 -0600
+
+    Adding methods to BoardCell Class to finish Board class! SN
+
+commit 9d20c819b50ae03143055e46c4ee997666df022a
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 13:32:19 2025 -0600
+
+    Beginning the creation of Board Class! SN
+
+commit 5ce612e8e729dfd504c1c432f884295062e836ac
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Mon Jul 21 12:50:28 2025 -0600
+
+    Update TestBoard and TestBoardCell for test passing! SN
+
+commit bac8c935e4373596bb72bb3a68720cbee1f082fe
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sun Jul 20 22:04:57 2025 -0600
+
+    Added code for Room.java, DoorDirection.java,
+    BadConfigFormatException.java
+
+commit 5ce52815b1adddd7865480967285f11b93f2e854
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sun Jul 20 15:49:00 2025 -0600
+
+    Added Skeleton classes for C14A-2 BH
+
+commit 3641f79df21638ab8e2b7520e8df2fb4a0acc046
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sun Jul 20 15:26:36 2025 -0600
+
+    Updates methods for TestBoardCell and got first 5 tests to pass
+    
+    Added comments and improved format
+
+commit 13028fed27b5303e8b777e7f639cb757100207a2
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Sun Jul 20 14:45:49 2025 -0600
+
+    Added isOccupied method in TestBoardCell & adding to TestBoard class SN!
+
+commit 024ad39ffe6f99c394b29ff31a8ed516e4a372d2
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Jul 19 20:28:59 2025 -0600
+
+    Added gitlog.txt
+
+commit b0e2139b0c3b37b7a3fa740eae48268278205aab
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Jul 19 20:27:54 2025 -0600
+
+    Added comments and improved format
+
+commit 36d3b24e4acc99d5a27910ebb07c66381044fdb0
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Sat Jul 19 19:36:13 2025 -0600
+
+    Finished the rest of TestBoard with TestBoardCell and TestBoardCell
+    methods! SN!
+
+commit f99a9e6e4d2dc807d6c5b5639318b9054a5cc90b
+Author: venstnguyen@gmail.com <139813710+venstnguyen@users.noreply.github.com>
+Date:   Sat Jul 19 19:26:36 2025 -0600
+
+    Adding and build Java library within project, as well as starting
+    TestBoard Class! SN
+
+commit 18f3d3d469060a62c16747fee7c1a2df53cf3116
+Author: Liam <143021328+liamobyrne@users.noreply.github.com>
+Date:   Sat Jul 19 17:40:23 2025 -0400
+
+    Create README.md
+
+commit 3a21659c9f2cbd3553b35f1cd9b0d7d94c204631
+Author: Liam <143021328+liamobyrne@users.noreply.github.com>
+Date:   Sat Jul 19 17:37:11 2025 -0400
+
+    Update BoardTestsExp.java
+
+commit 797fcbd4c949ea491578cc07d5c875fc49599c85
+Author: Liam <lobyrne05@gmail.com>
+Date:   Sat Jul 19 17:35:11 2025 -0400
+
+    Target tests + TestBoardCell.java
+
+commit 34862be91457e7e51ec19f7325ccfb3b65611224
+Author: Benny Hoang <benny_hoang@mines.edu>
+Date:   Sat Jul 19 15:09:34 2025 -0600
+
+    Added changes for BoardTestsExp class & TestBoardCell Skeleton
+
+commit ce6f33391eb840d909bacb63daf44dd8c416bada
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Jul 18 15:38:49 2025 -0400
+
+    setup
+
+commit d44feeca1f786fd8944d685b8e0f06f5d7e4e911
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Jul 18 15:35:21 2025 -0400
+
+    setup
+
+commit 1454275ff4159cd5f7c2c26fdc023a03b8de8d0d
+Author: Liam <lobyrne05@gmail.com>
+Date:   Fri Jul 18 15:34:25 2025 -0400
+
+    Initial commit

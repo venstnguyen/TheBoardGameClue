@@ -1,0 +1,216 @@
+diff --git a/src/clueGame/Board.java b/src/clueGame/Board.java
+index 94242fa..75d7a1a 100644
+--- a/src/clueGame/Board.java
++++ b/src/clueGame/Board.java
+@@ -12,8 +12,10 @@ package clueGame;
+ 
+ import java.io.FileNotFoundException;
+ import java.io.FileReader;
++import java.util.ArrayList;
+ import java.util.HashMap;
+ import java.util.HashSet;
++import java.util.List;
+ import java.util.Map;
+ import java.util.Scanner;
+ import java.util.Set;
+@@ -38,6 +40,9 @@ public class Board {
+ 	private Set<BoardCell> targets;
+ 	private Set<BoardCell> visited;
+ 	
++	// Folder path name
++	private static final String DATA_FOLDER = "data/";
++	
+ 	private Board() {
+ 		super();
+ 		roomMap = new HashMap<>();
+@@ -52,8 +57,8 @@ public class Board {
+ 	
+ 	//Setting up config files
+ 	public void setConfigFiles(String layoutConfigFile, String setupConfigFile) {
+-		this.layoutConfigFile = "data/" + layoutConfigFile;
+-		this.setupConfigFile = "data/" + setupConfigFile;
++		this.layoutConfigFile = DATA_FOLDER + layoutConfigFile;
++		this.setupConfigFile = DATA_FOLDER + setupConfigFile;
+ 	}
+ 	
+ 	//Loading the setup Config file
+@@ -87,88 +92,97 @@ public class Board {
+ 	}
+ 	
+ 	//Loading the layout from the Config file
+-	public void loadLayoutConfig() throws BadConfigFormatException, FileNotFoundException{
+-		try(Scanner scanner = new Scanner(new FileReader(layoutConfigFile))){
+-			
+-			int rowCount = 0;
+-			int expectedColumns = -1;
+-			
+-			java.util.List<String> lines = new java.util.ArrayList<>();
+-			while(scanner.hasNextLine()) {
+-				String line = scanner.nextLine().trim();
+-				if (!line.isEmpty()) {
+-					lines.add(line);
+-					String[] cells = line.split(",");
+-					
+-					if(expectedColumns == -1) {
+-						expectedColumns = cells.length;
+-					} else if (cells.length != expectedColumns) {
+-						throw new BadConfigFormatException("Invalid number of columns in the layout file");
+-					}
+-					
+-					rowCount++;
+-				}
+-			}
+-			
+-			numRows = rowCount;
+-			numColumns = expectedColumns;
+-			grid = new BoardCell[numRows][numColumns];
+-			
+-			//Making board cells
+-			for(int row = 0;row < numRows; row++) {
+-				String[] cells = lines.get(row).split(",");
+-				for(int col = 0; col < numColumns; col++) {
+-					String cellData = cells[col].trim();
+-					char roomInitial = cellData.charAt(0);
+-					
+-					//Check is room is in the setup
+-					if(!roomMap.containsKey(roomInitial)) {
+-						throw new BadConfigFormatException("Room: " + roomInitial + " not in the file");
+-					}
+-					
+-					//Making the board cells
+-					BoardCell cell = new BoardCell(row, col, roomInitial);
+-					
+-					if (cellData.length() > 1) {
+-                        char modifier = cellData.charAt(1);
+-                        switch (modifier) {
+-                            case '^':
+-                                cell.setDoorway(true);
+-                                cell.setDoorDirection(DoorDirection.UP);
+-                                break;
+-                            case 'v':
+-                                cell.setDoorway(true);
+-                                cell.setDoorDirection(DoorDirection.DOWN);
+-                                break;
+-                            case '<':
+-                                cell.setDoorway(true);
+-                                cell.setDoorDirection(DoorDirection.LEFT);
+-                                break;
+-                            case '>':
+-                                cell.setDoorway(true);
+-                                cell.setDoorDirection(DoorDirection.RIGHT);
+-                                break;
+-                            case '*':
+-                                cell.setRoomCenter(true);
+-                                roomMap.get(roomInitial).setCenterCell(cell);
+-                                break;
+-                            case '#':
+-                                cell.setLabel(true);
+-                                roomMap.get(roomInitial).setLabelCell(cell);
+-                                break;
+-                            default:
+-                            	//For secret ways
+-                            	if (roomMap.containsKey(modifier)) {
+-                            		cell.setSecretPassage(modifier);
+-                            	}
+-                            	break;
+-						}
+-					}
+-					grid[row][col] = cell;
+-				}
+-			}
+-		}
+-	}
++    public void loadLayoutConfig() throws BadConfigFormatException, FileNotFoundException {
++        List<String> lines = new ArrayList<>();
++
++        try (Scanner scanner = new Scanner(new FileReader(layoutConfigFile))) {
++            while (scanner.hasNextLine()) {
++                String line = scanner.nextLine().trim();
++                if (!line.isEmpty()) {
++                    lines.add(line);
++                }
++            }
++        }
++
++        if (lines.isEmpty()) {
++            throw new BadConfigFormatException("Layout file is empty");
++        }
++
++        numRows = lines.size();
++        numColumns = -1;
++
++        // Validate row column count
++        for (String line : lines) {
++            String[] cells = line.split(",");
++            if (numColumns == -1) {
++                numColumns = cells.length;
++            } else if (cells.length != numColumns) {
++                throw new BadConfigFormatException("Inconsistent row length in layout file");
++            }
++        }
++
++        grid = new BoardCell[numRows][numColumns];
++
++        for (int row = 0; row < numRows; row++) {
++            String[] cells = lines.get(row).split(",");
++            for (int col = 0; col < numColumns; col++) {
++                String cellData = cells[col].trim();
++                if (cellData.isEmpty()) {
++                    throw new BadConfigFormatException("Empty cell data at (" + row + "," + col + ")");
++                }
++
++                char roomInitial = cellData.charAt(0);
++
++                if (!roomMap.containsKey(roomInitial)) {
++                    throw new BadConfigFormatException("Room initial '" + roomInitial + "' at (" + row + "," + col + ") not found in setup file");
++                }
++
++                BoardCell cell = new BoardCell(row, col, roomInitial);
++
++                applyCellModifiers(cell, cellData);
++
++                grid[row][col] = cell;
++            }
++        }
++    }
++
++
++    private void applyCellModifiers(BoardCell cell, String cellData) {
++        if (cellData.length() > 1) {
++            char modifier = cellData.charAt(1);
++            switch (modifier) {
++                case '^':
++                    cell.setDoorway(true);
++                    cell.setDoorDirection(DoorDirection.UP);
++                    break;
++                case 'v':
++                    cell.setDoorway(true);
++                    cell.setDoorDirection(DoorDirection.DOWN);
++                    break;
++                case '<':
++                    cell.setDoorway(true);
++                    cell.setDoorDirection(DoorDirection.LEFT);
++                    break;
++                case '>':
++                    cell.setDoorway(true);
++                    cell.setDoorDirection(DoorDirection.RIGHT);
++                    break;
++                case '*':
++                    cell.setRoomCenter(true);
++                    roomMap.get(cell.getInitial()).setCenterCell(cell);
++                    break;
++                case '#':
++                    cell.setLabel(true);
++                    roomMap.get(cell.getInitial()).setLabelCell(cell);
++                    break;
++                default:
++                    if (roomMap.containsKey(modifier)) {
++                        cell.setSecretPassage(modifier);
++                    }
++                    break;
++            }
++        }
++    }
+ 	
+ 	//Creating the board with both config files
+ 	public void initialize() {
